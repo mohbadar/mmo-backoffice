@@ -1,5 +1,7 @@
 package af.asr.validation.constaints;
 
+import af.asr.validation.CheckIdentifier;
+
 import javax.validation.Constraint;
 import javax.validation.Payload;
 import java.lang.annotation.Documented;

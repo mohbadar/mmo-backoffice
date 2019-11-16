@@ -1,6 +1,8 @@
 package af.asr.validation.constaints;
 
 
+import af.asr.validation.CheckApplicationName;
+
 import javax.validation.Constraint;
 import javax.validation.Payload;
 import java.lang.annotation.Documented;
