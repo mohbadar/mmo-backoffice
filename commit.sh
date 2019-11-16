@@ -1,4 +1,4 @@
 
 
 git add .
-git commit -m "MMO Lang Library => Listenner Section"
+git commit -m "MMO Sync Library Setup"
