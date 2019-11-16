@@ -1,4 +1,4 @@
 
 
 git add .
-git commit -m "MMO Lang Library => Validation Section"
+git commit -m "MMO Lang Library => Configuration Section"
