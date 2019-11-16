@@ -19,6 +19,7 @@
 		<find.bugs.version>3.0.2</find.bugs.version>
 		<gson.version>2.8.6</gson.version>
 		<json.version>20190722</json.version>
+		<joda-time.version>2.10.4</joda-time.version>
 	</properties>
 
 	<dependencies>
@@ -30,16 +31,42 @@
 			<version>${find.bugs.version}</version>
 		</dependency>
 
+<!--		Google GSON-->
 		<dependency>
 			<groupId>com.google.code.gson</groupId>
 			<artifactId>gson</artifactId>
 			<version>${gson.version}</version>
 		</dependency>
+
+<!--		JSON -->
 		<dependency>
 			<groupId>org.json</groupId>
 			<artifactId>json</artifactId>
 			<version>${json.version}</version>
 		</dependency>
+
+<!--		JODA-TIME-->
+		<dependency>
+			<groupId>joda-time</groupId>
+			<artifactId>joda-time</artifactId>
+			<version>${joda-time.version}</version>
+		</dependency>
+
+<!--		Common lang-->
+		<dependency>
+			<groupId>commons-lang</groupId>
+			<artifactId>commons-lang</artifactId>
+			<version>2.6</version>
+		</dependency>
+
+
+		<!--		Lombok-->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<optional>true</optional>
+		</dependency>
+
 
 
 
