@@ -6,9 +6,8 @@ import af.asr.DateConverter;
 import java.time.DateTimeException;
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
-import java.time.DateTimeException;
 
-public class CheckLocalDateTimeString implements ConstraintValidator<ValidLocalDateTimeString, String> {
+public class CheckLocalDateTimeString implements ConstraintValidator<af.asr.validation.constaints.ValidLocalDateTimeString, String> {
     public void initialize(ValidLocalDateTimeString constraint) {
     }
 
