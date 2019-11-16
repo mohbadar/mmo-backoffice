@@ -1,5 +1,6 @@
 package af.asr.validation.constaints;
 
+
 import javax.validation.Constraint;
 import javax.validation.Payload;
 import java.lang.annotation.Documented;
@@ -10,20 +11,16 @@ import static java.lang.annotation.ElementType.*;
 import static java.lang.annotation.RetentionPolicy.RUNTIME;
 
 /**
- * The annotated string must not be null, must have a minimum length of 2, and must be
- * equals to itself URL-encoded.
- *
+ * The annotated string must not be null, and must contain an application name of the form
+ * appname-v1
  */
 @SuppressWarnings("unused")
 @Target({ FIELD, METHOD, PARAMETER})
 @Retention(RUNTIME)
 @Documented
-@Constraint(validatedBy = CheckIdentifier.class)
-public @interface ValidIdentifier {
+@Constraint(validatedBy = CheckApplicationName.class)
+public @interface ValidApplicationName {
     String message() default "Invalid fineract identifier.";
     Class<?>[] groups() default { };
     Class<? extends Payload>[] payload() default { };
-
-    int maxLength() default 32;
-    boolean optional() default false;
 }
