@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/mmo.iml" filepath="$PROJECT_DIR$/mmo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mmo-async/mmo-async.iml" filepath="$PROJECT_DIR$/mmo-async/mmo-async.iml" />
       <module fileurl="file://$PROJECT_DIR$/mmo-core/mmo-core.iml" filepath="$PROJECT_DIR$/mmo-core/mmo-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/mmo-lang/mmo-lang.iml" filepath="$PROJECT_DIR$/mmo-lang/mmo-lang.iml" />
     </modules>
