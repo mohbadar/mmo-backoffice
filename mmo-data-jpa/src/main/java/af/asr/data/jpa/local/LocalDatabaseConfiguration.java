@@ -1,7 +1,6 @@
 package af.asr.data.jpa.local;
 
 import af.asr.data.jpa.core.DatabaseConnectorConstants;
-import org.apache.fineract.cn.core.data.jpa.core.DatabaseConnectorConstants;
 import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
