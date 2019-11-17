@@ -1,5 +1,6 @@
 package af.asr.postgresql.config;
 
+import af.asr.postgresql.util.EclipseLinkConstants;
 import org.eclipse.persistence.config.BatchWriting;
 import org.eclipse.persistence.config.PersistenceUnitProperties;
 import org.eclipse.persistence.config.TargetDatabase;
