@@ -55,6 +55,13 @@
 		</dependency>
 
 
+		<dependency>
+			<groupId>af.asr</groupId>
+			<artifactId>mmo-api</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
+
 	</dependencies>
 
 	<!-- <build>
