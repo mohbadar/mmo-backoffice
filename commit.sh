@@ -1,4 +1,4 @@
 
 
 git add .
-git commit -m "PostgreSQL Multitenant Architecture library -- Util Section "
+git commit -m "PostgreSQL Multitenant Architecture library -- Finished"
