@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35e9da4c-fbc3-4f56-b6f0-e8bdc47b761d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-api/src/main/java/af/asr/vault/api/RoleConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-api/src/main/java/af/asr/vault/api/TokenConstants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mmo-vault/vault-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mmo-vault/vault-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mmo-vault/vault-service/src/main/java/af/asr/vault/service/service/PermittableService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mmo-vault/vault-service/src/main/java/af/asr/vault/service/service/PermittableService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmo-vault/vault-api/src/main/java/af/asr/vaultapi/VaultApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmo-vault/vault-api/src/test/java/af/asr/vaultapi/VaultApiApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/mmo-vault/vault-api/src/test/java/af/asr/vault/api/VaultApiApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
