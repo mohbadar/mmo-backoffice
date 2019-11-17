@@ -10,10 +10,13 @@
         <module name="mmo-command" />
         <module name="mmo-core" />
         <module name="mmo-cassandra" />
+        <module name="vault-api" />
         <module name="mmo-data-jpa" />
         <module name="mmo-async" />
+        <module name="mmo-vault" />
         <module name="mmo-crypto" />
         <module name="mmo-api" />
+        <module name="vault-service" />
         <module name="mmo-postgres" />
       </profile>
     </annotationProcessing>
@@ -28,6 +31,9 @@
       <module name="mmo-data-jpa" target="1.8" />
       <module name="mmo-lang" target="1.8" />
       <module name="mmo-postgres" target="1.8" />
+      <module name="mmo-vault" target="1.5" />
+      <module name="vault-api" target="1.8" />
+      <module name="vault-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -41,6 +47,8 @@
       <module name="mmo-data-jpa" options="-parameters" />
       <module name="mmo-lang" options="-parameters" />
       <module name="mmo-postgres" options="-parameters" />
+      <module name="vault-api" options="-parameters" />
+      <module name="vault-service" options="-parameters" />
     </option>
   </component>
 </project>

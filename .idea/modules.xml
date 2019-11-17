@@ -12,6 +12,9 @@
       <module fileurl="file://$PROJECT_DIR$/mmo-data-jpa/mmo-data-jpa.iml" filepath="$PROJECT_DIR$/mmo-data-jpa/mmo-data-jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/mmo-lang/mmo-lang.iml" filepath="$PROJECT_DIR$/mmo-lang/mmo-lang.iml" />
       <module fileurl="file://$PROJECT_DIR$/mmo-postgres/mmo-postgres.iml" filepath="$PROJECT_DIR$/mmo-postgres/mmo-postgres.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mmo-vault/mmo-vault.iml" filepath="$PROJECT_DIR$/mmo-vault/mmo-vault.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mmo-vault/vault-api/vault-api.iml" filepath="$PROJECT_DIR$/mmo-vault/vault-api/vault-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mmo-vault/vault-service/vault-service.iml" filepath="$PROJECT_DIR$/mmo-vault/vault-service/vault-service.iml" />
     </modules>
   </component>
 </project>
