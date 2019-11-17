@@ -1,5 +1,7 @@
 package af.asr.cassandra.core;
 
+import af.asr.ServiceException;
+import af.asr.TenantContextHolder;
 import af.asr.cassandra.domain.Tenant;
 import af.asr.cassandra.util.CassandraConnectorConstants;
 import af.asr.cassandra.util.CodecRegistry;

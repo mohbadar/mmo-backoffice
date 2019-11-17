@@ -1,10 +1,12 @@
 package af.asr.cassandra.config;
 
+import af.asr.ApplicationName;
 import af.asr.cassandra.core.CassandraJourneyFactory;
 import af.asr.cassandra.core.CassandraSessionProvider;
 import af.asr.cassandra.core.TenantAwareCassandraMapperProvider;
 import af.asr.cassandra.core.TenantAwareEntityTemplate;
 import af.asr.cassandra.util.CassandraConnectorConstants;
+import af.asr.config.EnableApplicationName;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

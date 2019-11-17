@@ -1,6 +1,7 @@
 package af.asr.cassandra.core;
 
 
+import af.asr.TenantContextHolder;
 import com.datastax.driver.core.Session;
 import com.datastax.driver.mapping.Mapper;
 import com.datastax.driver.mapping.MappingManager;

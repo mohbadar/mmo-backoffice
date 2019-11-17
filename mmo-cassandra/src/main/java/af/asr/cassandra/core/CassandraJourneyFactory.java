@@ -1,5 +1,6 @@
 package af.asr.cassandra.core;
 
+import af.asr.ApplicationName;
 import org.slf4j.Logger;
 
 @SuppressWarnings("unused")
