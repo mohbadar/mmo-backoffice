@@ -1,4 +1,4 @@
 
 
 git add .
-git commit -m "MMO Sync Library Setup"
+git commit -m "API Library Setup"
