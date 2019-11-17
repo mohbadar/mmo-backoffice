@@ -1,5 +1,6 @@
 package af.asr.api.util;
 
+import af.asr.api.config.ApiConfiguration;
 import feign.Feign;
 import feign.gson.GsonDecoder;
 import feign.gson.GsonEncoder;
