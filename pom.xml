@@ -11,7 +11,8 @@
     <modules>
         <module>mmo-lang</module>
 	<module>mmo-async</module>
-        <module>mmo-core</module>
+        <module>mmo-api</module>
+	<module>mmo-core</module>
     </modules>
 
 </project>
