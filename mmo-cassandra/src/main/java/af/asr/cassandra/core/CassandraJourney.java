@@ -1,6 +1,7 @@
 package af.asr.cassandra.core;
 
 
+import af.asr.ApplicationName;
 import com.datastax.driver.core.DataType;
 import com.datastax.driver.core.KeyspaceMetadata;
 import com.datastax.driver.core.ParseUtils;
