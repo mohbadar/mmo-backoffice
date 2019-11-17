@@ -19,6 +19,7 @@
 		<logback.classic.version>1.2.3</logback.classic.version>
 		<jcl.over.slf4j.version>1.7.29</jcl.over.slf4j.version>
 		<spring.security.core.version>5.2.1.RELEASE</spring.security.core.version>
+		<find.bugs.version>3.0.2</find.bugs.version>
 	</properties>
 
 	<dependencies>
@@ -28,12 +29,20 @@
 			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
 
-		<!-- Spring Security Core-->
+
+		<!--		Google FindBugs-->
 		<dependency>
-			<groupId>org.springframework.security</groupId>
-			<artifactId>spring-security-core</artifactId>
-			<version>${spring.security.core.version}</version>
+			<groupId>com.google.code.findbugs</groupId>
+			<artifactId>jsr305</artifactId>
+			<version>${find.bugs.version}</version>
 		</dependency>
+
+		<!-- Spring Security Core-->
+<!--		<dependency>-->
+<!--			<groupId>org.springframework.security</groupId>-->
+<!--			<artifactId>spring-security-core</artifactId>-->
+<!--			<version>${spring.security.core.version}</version>-->
+<!--		</dependency>-->
 
 
 		<!--  -->

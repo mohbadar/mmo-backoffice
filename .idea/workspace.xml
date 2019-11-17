@@ -4,6 +4,7 @@
     <list default="true" id="35e9da4c-fbc3-4f56-b6f0-e8bdc47b761d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mmo-crypto/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mmo-crypto/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmo-crypto/src/main/java/af/asr/crypto/HashGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/mmo-crypto/src/main/java/af/asr/crypto/HashGenerator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
