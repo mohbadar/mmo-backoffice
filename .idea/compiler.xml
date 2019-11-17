@@ -9,10 +9,12 @@
         <module name="mmo-async" />
         <module name="mmo-core" />
         <module name="mmo-lang" />
+        <module name="mmo-api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="mmo" target="1.5" />
+      <module name="mmo-api" target="1.8" />
       <module name="mmo-async" target="1.8" />
       <module name="mmo-core" target="1.8" />
       <module name="mmo-lang" target="1.8" />
@@ -20,6 +22,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mmo-api" options="-parameters" />
       <module name="mmo-async" options="-parameters" />
       <module name="mmo-core" options="-parameters" />
       <module name="mmo-lang" options="-parameters" />

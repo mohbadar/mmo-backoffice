@@ -2,6 +2,8 @@ package af.asr.api.util;
 
 
 import static af.asr.config.TenantHeaderFilter.TENANT_HEADER;
+
+import af.asr.TenantContextHolder;
 import feign.RequestInterceptor;
 import feign.RequestTemplate;
 
