@@ -16,6 +16,7 @@
         <module>mmo-postgres</module>
         <module>mmo-cassandra</module>
         <module>mmo-crypto</module>
+        <module>mmo-command</module>
         <module>mmo-core</module>
 
     </modules>

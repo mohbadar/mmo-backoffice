@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/mmo-api/mmo-api.iml" filepath="$PROJECT_DIR$/mmo-api/mmo-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/mmo-async/mmo-async.iml" filepath="$PROJECT_DIR$/mmo-async/mmo-async.iml" />
       <module fileurl="file://$PROJECT_DIR$/mmo-cassandra/mmo-cassandra.iml" filepath="$PROJECT_DIR$/mmo-cassandra/mmo-cassandra.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mmo-command/mmo-command.iml" filepath="$PROJECT_DIR$/mmo-command/mmo-command.iml" />
       <module fileurl="file://$PROJECT_DIR$/mmo-core/mmo-core.iml" filepath="$PROJECT_DIR$/mmo-core/mmo-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/mmo-crypto/mmo-crypto.iml" filepath="$PROJECT_DIR$/mmo-crypto/mmo-crypto.iml" />
       <module fileurl="file://$PROJECT_DIR$/mmo-data-jpa/mmo-data-jpa.iml" filepath="$PROJECT_DIR$/mmo-data-jpa/mmo-data-jpa.iml" />

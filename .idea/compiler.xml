@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mmo-lang" />
+        <module name="mmo-command" />
         <module name="mmo-core" />
         <module name="mmo-cassandra" />
         <module name="mmo-data-jpa" />
@@ -21,6 +22,7 @@
       <module name="mmo-api" target="1.8" />
       <module name="mmo-async" target="1.8" />
       <module name="mmo-cassandra" target="1.8" />
+      <module name="mmo-command" target="1.8" />
       <module name="mmo-core" target="1.8" />
       <module name="mmo-crypto" target="1.8" />
       <module name="mmo-data-jpa" target="1.8" />
@@ -33,6 +35,7 @@
       <module name="mmo-api" options="-parameters" />
       <module name="mmo-async" options="-parameters" />
       <module name="mmo-cassandra" options="-parameters" />
+      <module name="mmo-command" options="-parameters" />
       <module name="mmo-core" options="-parameters" />
       <module name="mmo-crypto" options="-parameters" />
       <module name="mmo-data-jpa" options="-parameters" />
