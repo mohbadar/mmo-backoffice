@@ -16,13 +16,29 @@
 
 	<properties>
 		<java.version>1.8</java.version>
+		<find.bugs.version>3.0.2</find.bugs.version>
+		<bonecp.version>0.8.0.RELEASE</bonecp.version>
+		<eclipse.jpa.persistance.version>2.7.5</eclipse.jpa.persistance.version>
+		<hibernate.core.version>5.4.8.Final</hibernate.core.version>
+		<hibernate.entitymanager.version>5.4.9.Final</hibernate.entitymanager.version>
 	</properties>
 
 	<dependencies>
+
+		<!--		Google FindBugs-->
+		<dependency>
+			<groupId>com.google.code.findbugs</groupId>
+			<artifactId>jsr305</artifactId>
+			<version>${find.bugs.version}</version>
+		</dependency>
+
+
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
 		</dependency>
+
 		<dependency>
 			<groupId>org.flywaydb</groupId>
 			<artifactId>flyway-core</artifactId>
@@ -39,11 +55,59 @@
 			<artifactId>postgresql</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
 		</dependency>
+
+		<dependency>
+			<groupId>af.asr</groupId>
+			<artifactId>mmo-lang</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.jolbox</groupId>
+			<artifactId>bonecp</artifactId>
+			<version>0.8.0.RELEASE</version>
+		</dependency>
+
+		<!-- bonecp - lightweight datasource connections -->
+		<dependency>
+			<groupId>com.jolbox</groupId>
+			<artifactId>bonecp</artifactId>
+			<version>${bonecp.version}</version>
+		</dependency>
+
+
+		<!-- Eclipse Persistence JPA -->
+		<dependency>
+			<groupId>org.eclipse.persistence</groupId>
+			<artifactId>org.eclipse.persistence.jpa</artifactId>
+			<version>${eclipse.jpa.persistance.version}</version>
+		</dependency>
+
+
+		<!--Hibernate Entity Manager -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-entitymanager</artifactId>
+			<version>${hibernate.entitymanager.version}</version>
+		</dependency>
+
+		<!-- Hibernate Core -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>${hibernate.core.version}</version>
+		</dependency>
+
+
+
+
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -55,6 +119,8 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
+
+
 	</dependencies>
 
 	<build>
