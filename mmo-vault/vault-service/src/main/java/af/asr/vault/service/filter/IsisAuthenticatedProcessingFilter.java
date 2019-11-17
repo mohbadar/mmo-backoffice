@@ -2,6 +2,8 @@ package af.asr.vault.service.filter;
 
 
 import af.asr.api.util.ApiConstants;
+import af.asr.vault.api.RoleConstants;
+import af.asr.vault.api.TokenConstants;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.web.authentication.preauth.AbstractPreAuthenticatedProcessingFilter;
 
@@ -10,9 +12,6 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.Optional;
 
 
-/**
- * @author Myrle Krantz
- */
 public class IsisAuthenticatedProcessingFilter extends AbstractPreAuthenticatedProcessingFilter {
 
     public IsisAuthenticatedProcessingFilter(final AuthenticationManager authenticationManager) {

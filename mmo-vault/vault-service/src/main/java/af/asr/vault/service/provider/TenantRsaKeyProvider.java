@@ -2,6 +2,7 @@ package af.asr.vault.service.provider;
 
 
 import af.asr.security.RsaPublicKeyBuilder;
+import af.asr.vault.api.domain.Signature;
 import af.asr.vault.service.config.TenantSignatureRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

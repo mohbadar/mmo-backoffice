@@ -2,6 +2,11 @@ package af.asr.vault.service.config;
 
 import af.asr.ApplicationName;
 
+import af.asr.vault.service.filter.IsisAuthenticatedProcessingFilter;
+import af.asr.vault.service.filter.UserContextFilter;
+import af.asr.vault.service.security.ApplicationPermission;
+import af.asr.vault.service.security.IsisAuthenticatedAuthenticationProvider;
+import af.asr.vault.service.security.UrlPermissionChecker;
 import org.apache.http.HttpStatus;
 import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;

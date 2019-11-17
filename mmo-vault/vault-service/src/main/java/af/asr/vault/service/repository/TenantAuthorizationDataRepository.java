@@ -6,6 +6,8 @@ import af.asr.cassandra.core.CassandraSessionProvider;
 import af.asr.security.RsaKeyPairFactory;
 import af.asr.security.RsaPrivateKeyBuilder;
 import af.asr.security.RsaPublicKeyBuilder;
+import af.asr.vault.api.domain.ApplicationSignatureSet;
+import af.asr.vault.api.domain.Signature;
 import af.asr.vault.service.config.AnubisConstants;
 import af.asr.vault.service.config.TenantSignatureRepository;
 import com.datastax.driver.core.*;

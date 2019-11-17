@@ -2,6 +2,8 @@ package af.asr.vault.service.controller;
 
 
 import af.asr.ServiceException;
+import af.asr.vault.api.domain.ApplicationSignatureSet;
+import af.asr.vault.api.domain.Signature;
 import af.asr.vault.service.annotation.AcceptedTokenType;
 import af.asr.vault.service.annotation.Permittable;
 import af.asr.vault.service.config.TenantSignatureRepository;

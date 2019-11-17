@@ -3,6 +3,8 @@ package af.asr.vault.service.security;
 
 import af.asr.ApplicationName;
 import af.asr.api.util.ApiConstants;
+import af.asr.vault.api.domain.AllowedOperation;
+import af.asr.vault.service.service.PermissionSegmentMatcher;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.web.FilterInvocation;
 

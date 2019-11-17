@@ -4,6 +4,8 @@ package af.asr.vault.service.service;
 import static af.asr.vault.service.config.AnubisConstants.LOGGER_NAME;
 
 import af.asr.ApplicationName;
+import af.asr.vault.api.domain.AllowedOperation;
+import af.asr.vault.api.domain.PermittableEndpoint;
 import af.asr.vault.service.annotation.AcceptedTokenType;
 import af.asr.vault.service.annotation.Permittable;
 import af.asr.vault.service.config.AnubisProperties;

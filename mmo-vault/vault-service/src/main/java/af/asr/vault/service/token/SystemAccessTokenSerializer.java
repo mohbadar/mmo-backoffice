@@ -1,5 +1,6 @@
 package af.asr.vault.service.token;
 
+import af.asr.vault.api.TokenConstants;
 import org.springframework.stereotype.Component;
 
 import java.security.PrivateKey;

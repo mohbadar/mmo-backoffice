@@ -1,8 +1,10 @@
 package af.asr.vault.service.controller;
 
 
+import af.asr.vault.api.domain.PermittableEndpoint;
 import af.asr.vault.service.annotation.AcceptedTokenType;
 import af.asr.vault.service.annotation.Permittable;
+import af.asr.vault.service.service.PermittableService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;

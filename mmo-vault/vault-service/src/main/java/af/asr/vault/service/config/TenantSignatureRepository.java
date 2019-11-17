@@ -3,6 +3,8 @@ package af.asr.vault.service.config;
 
 
 import af.asr.security.RsaKeyPairFactory;
+import af.asr.vault.api.domain.ApplicationSignatureSet;
+import af.asr.vault.api.domain.Signature;
 
 import java.util.List;
 import java.util.Optional;
