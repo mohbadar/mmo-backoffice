@@ -49,7 +49,7 @@
 			<artifactId>jsr305</artifactId>
 			<version>${find.bugs.version}</version>
 		</dependency>
-		
+
 		<!-- Spring Cassandra-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
