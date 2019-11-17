@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35e9da4c-fbc3-4f56-b6f0-e8bdc47b761d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mmo-data-jpa/src/main/java/af/asr/data/jpa/local/repository/DataSourceInstance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmo-data-jpa/src/main/java/af/asr/data/jpa/local/LocalRoutingDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/mmo-data-jpa/src/main/java/af/asr/data/jpa/local/LocalRoutingDataSource.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
