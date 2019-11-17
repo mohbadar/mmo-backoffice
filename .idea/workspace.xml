@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35e9da4c-fbc3-4f56-b6f0-e8bdc47b761d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-api/src/main/java/af/asr/vault/api/validation/CheckKeyTimestamp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-api/src/main/java/af/asr/vault/api/validation/ValidKeyTimestamp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mmo-vault/vault-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mmo-vault/vault-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-api/src/main/java/af/asr/vault/api/domain/AllowedOperation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
