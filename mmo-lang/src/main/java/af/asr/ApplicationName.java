@@ -35,7 +35,7 @@ public class ApplicationName {
         final Matcher applicationNameMatcher = applicationNamePattern.matcher(springApplicationNameString);
         if (!applicationNameMatcher.matches()) {
             throw new IllegalArgumentException(
-                    "This is not a spring application name string for an Apache Fineract CN application: "
+                    "This is not a spring application name string for application: "
                             + springApplicationNameString);
         }
         String versionString = applicationNameMatcher.group("version");
