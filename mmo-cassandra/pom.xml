@@ -17,6 +17,7 @@
 	<properties>
 		<java.version>1.8</java.version>
 		<cassandra.driver.version>3.8.0</cassandra.driver.version>
+		<find.bugs.version>3.0.2</find.bugs.version>
 	</properties>
 
 	<dependencies>
@@ -42,8 +43,14 @@
 			<version>${cassandra.driver.version}</version>
 		</dependency>
 
-
-<!-- Spring Cassandra-->
+		<!--		Google FindBugs-->
+		<dependency>
+			<groupId>com.google.code.findbugs</groupId>
+			<artifactId>jsr305</artifactId>
+			<version>${find.bugs.version}</version>
+		</dependency>
+		
+		<!-- Spring Cassandra-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-cassandra</artifactId>
