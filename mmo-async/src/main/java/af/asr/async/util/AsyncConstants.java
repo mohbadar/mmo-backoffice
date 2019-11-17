@@ -1,6 +1,6 @@
 package af.asr.async.util;
 
-public class AsyncConstants {
+public interface AsyncConstants {
 
     String CORE_POOL_SIZE_PROP = "async.corePoolSize";
     String CORE_POOL_SIZE_DEFAULT = "32";
@@ -10,5 +10,4 @@ public class AsyncConstants {
     String QUEUE_CAPACITY_DEFAULT = "0";
     String THREAD_NAME_PROP = "async.threadName";
     String THREAD_NAME_DEFAULT = "async-processor-";
-
 }
