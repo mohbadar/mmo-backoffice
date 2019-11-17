@@ -24,6 +24,27 @@
 
 
 		<dependency>
+			<groupId>af.asr</groupId>
+			<artifactId>mmo-lang</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>af.asr</groupId>
+			<artifactId>mmo-async</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>af.asr</groupId>
+			<artifactId>mmo-cassandra</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
+
+
+		<!--		Spring ActiveMQ-->
+		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-activemq</artifactId>
 		</dependency>
@@ -34,6 +55,7 @@
 			<artifactId>jsr305</artifactId>
 			<version>${find.bugs.version}</version>
 		</dependency>
+
 
 
 		<!-- Google GSON -->
