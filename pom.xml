@@ -10,9 +10,11 @@
 
     <modules>
         <module>mmo-lang</module>
-	<module>mmo-async</module>
+	    <module>mmo-async</module>
         <module>mmo-api</module>
-	<module>mmo-core</module>
+        <module>mmo-data-jpa</module>
+        <module>mmo-core</module>
+
     </modules>
 
 </project>
