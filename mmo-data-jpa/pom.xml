@@ -69,6 +69,13 @@
 			<version>${commons-dbcp2.version}</version>
 		</dependency>
 
+		<!--		Lombok-->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<optional>true</optional>
+		</dependency>
+
 
 		<!--		Google FindBugs-->
 		<dependency>

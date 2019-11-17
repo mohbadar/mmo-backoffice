@@ -1,5 +1,9 @@
 package af.asr.data.jpa.local.repository;
 
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.ToString;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -7,6 +11,8 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "data_source_instances")
+@Data
+@ToString
 public class DataSourceInstance {
 
     @Id
