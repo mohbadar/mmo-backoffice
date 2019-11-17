@@ -11,6 +11,7 @@
         <module name="mmo-cassandra" />
         <module name="mmo-data-jpa" />
         <module name="mmo-async" />
+        <module name="mmo-crypto" />
         <module name="mmo-api" />
         <module name="mmo-postgres" />
       </profile>
@@ -21,6 +22,7 @@
       <module name="mmo-async" target="1.8" />
       <module name="mmo-cassandra" target="1.8" />
       <module name="mmo-core" target="1.8" />
+      <module name="mmo-crypto" target="1.8" />
       <module name="mmo-data-jpa" target="1.8" />
       <module name="mmo-lang" target="1.8" />
       <module name="mmo-postgres" target="1.8" />
@@ -32,6 +34,7 @@
       <module name="mmo-async" options="-parameters" />
       <module name="mmo-cassandra" options="-parameters" />
       <module name="mmo-core" options="-parameters" />
+      <module name="mmo-crypto" options="-parameters" />
       <module name="mmo-data-jpa" options="-parameters" />
       <module name="mmo-lang" options="-parameters" />
       <module name="mmo-postgres" options="-parameters" />

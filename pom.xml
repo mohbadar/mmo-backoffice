@@ -15,6 +15,7 @@
         <module>mmo-data-jpa</module>
         <module>mmo-postgres</module>
         <module>mmo-cassandra</module>
+        <module>mmo-crypto</module>
         <module>mmo-core</module>
 
     </modules>

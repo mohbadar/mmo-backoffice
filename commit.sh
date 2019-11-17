@@ -1,4 +1,4 @@
 
 
 git add .
-git commit -m "MMO Cassandra Library for Multitenancy support - Core Configuration Section"
+git commit -m "MMO Crypto Library - Setup"
