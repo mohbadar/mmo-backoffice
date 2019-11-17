@@ -1,6 +1,8 @@
 package af.asr.api.util;
 
 
+import af.asr.api.annotation.ThrowsException;
+import af.asr.api.annotation.ThrowsExceptions;
 import feign.Feign;
 import feign.FeignException;
 import feign.Response;
