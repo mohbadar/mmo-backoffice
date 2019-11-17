@@ -2,6 +2,7 @@ package af.asr.postgresql.config;
 
 import af.asr.ApplicationName;
 import af.asr.config.EnableApplicationName;
+import af.asr.postgresql.domain.FlywayFactoryBean;
 import af.asr.postgresql.util.JdbcUrlBuilder;
 import af.asr.postgresql.util.PostgreSQLConstants;
 import com.jolbox.bonecp.BoneCPDataSource;

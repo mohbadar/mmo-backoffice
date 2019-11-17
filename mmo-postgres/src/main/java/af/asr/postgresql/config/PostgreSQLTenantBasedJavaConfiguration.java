@@ -1,6 +1,7 @@
 package af.asr.postgresql.config;
 
 
+import af.asr.postgresql.domain.ContextAwareRoutingDataSource;
 import af.asr.postgresql.util.JdbcUrlBuilder;
 import af.asr.postgresql.util.PostgreSQLConstants;
 import org.slf4j.Logger;
