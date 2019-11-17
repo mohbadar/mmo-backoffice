@@ -1,4 +1,4 @@
 
 
 git add .
-git commit -m "PostgreSQL Multitenant Architecture library -- Finished"
+git commit -m "MMO Cassandra Library for Multitenancy support"

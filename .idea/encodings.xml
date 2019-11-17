@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/mmo-api/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mmo-async/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mmo-cassandra/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mmo-core/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mmo-data-jpa/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mmo-lang/src/main/java" charset="UTF-8" />

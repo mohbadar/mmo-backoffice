@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="mmo-lang" />
         <module name="mmo-core" />
+        <module name="mmo-cassandra" />
         <module name="mmo-data-jpa" />
         <module name="mmo-async" />
         <module name="mmo-api" />
@@ -18,6 +19,7 @@
       <module name="mmo" target="1.5" />
       <module name="mmo-api" target="1.8" />
       <module name="mmo-async" target="1.8" />
+      <module name="mmo-cassandra" target="1.8" />
       <module name="mmo-core" target="1.8" />
       <module name="mmo-data-jpa" target="1.8" />
       <module name="mmo-lang" target="1.8" />
@@ -28,6 +30,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="mmo-api" options="-parameters" />
       <module name="mmo-async" options="-parameters" />
+      <module name="mmo-cassandra" options="-parameters" />
       <module name="mmo-core" options="-parameters" />
       <module name="mmo-data-jpa" options="-parameters" />
       <module name="mmo-lang" options="-parameters" />
