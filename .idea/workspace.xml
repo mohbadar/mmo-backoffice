@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35e9da4c-fbc3-4f56-b6f0-e8bdc47b761d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mmo-cassandra/src/main/java/af/asr/cassandra/core/CassandraJourneyFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mmo-cassandra/src/main/java/af/asr/cassandra/core/CassandraJourney.java" beforeDir="false" afterPath="$PROJECT_DIR$/mmo-cassandra/src/main/java/af/asr/cassandra/core/CassandraJourney.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmo-cassandra/src/main/java/af/asr/cassandra/core/CassandraJourneyWaypoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmo-cassandra/src/main/java/af/asr/cassandra/core/CassandraJourneyRoute.java" beforeDir="false" afterPath="$PROJECT_DIR$/mmo-cassandra/src/main/java/af/asr/cassandra/core/CassandraJourneyRoute.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
