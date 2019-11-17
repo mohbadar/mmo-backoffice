@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/mmo-core/mmo-core.iml" filepath="$PROJECT_DIR$/mmo-core/mmo-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/mmo-data-jpa/mmo-data-jpa.iml" filepath="$PROJECT_DIR$/mmo-data-jpa/mmo-data-jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/mmo-lang/mmo-lang.iml" filepath="$PROJECT_DIR$/mmo-lang/mmo-lang.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mmo-postgres/mmo-postgres.iml" filepath="$PROJECT_DIR$/mmo-postgres/mmo-postgres.iml" />
     </modules>
   </component>
 </project>

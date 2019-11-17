@@ -13,6 +13,7 @@
 	    <module>mmo-async</module>
         <module>mmo-api</module>
         <module>mmo-data-jpa</module>
+        <module>mmo-postgres</module>
         <module>mmo-core</module>
 
     </modules>
