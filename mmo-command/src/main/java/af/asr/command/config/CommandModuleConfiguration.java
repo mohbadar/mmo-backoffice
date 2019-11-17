@@ -1,5 +1,6 @@
 package af.asr.command.config;
 
+import af.asr.config.EnableApplicationName;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import org.apache.activemq.command.ActiveMQTopic;
