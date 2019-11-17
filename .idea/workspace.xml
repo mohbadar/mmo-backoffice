@@ -2,83 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35e9da4c-fbc3-4f56-b6f0-e8bdc47b761d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_19_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_servlet_1_19_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_gson_10_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_29.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_server_2_2_0_RC2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_server_2_2_0_RC2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-api/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-api/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-api/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-api/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-api/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-api/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-api/src/main/java/af/asr/vaultapi/VaultApiApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-api/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-api/src/test/java/af/asr/vaultapi/VaultApiApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-service/src/main/java/af/asr/vault/service/annotation/AcceptedTokenType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-service/src/main/java/af/asr/vault/service/annotation/Permittable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-service/src/main/java/af/asr/vault/service/annotation/Permittables.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-service/src/main/java/af/asr/vault/service/config/AnubisConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-service/src/main/java/af/asr/vault/service/config/AnubisConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-service/src/main/java/af/asr/vault/service/config/AnubisImportSelector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-service/src/main/java/af/asr/vault/service/config/AnubisProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-service/src/main/java/af/asr/vault/service/config/AnubisSecurityConfigurerAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-service/src/main/java/af/asr/vault/service/config/EnableAnubis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-service/src/main/java/af/asr/vault/service/config/TenantSignatureRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-service/src/main/java/af/asr/vault/service/controller/EmptyInitializeResourcesRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-service/src/main/java/af/asr/vault/service/controller/PermittableRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-service/src/main/java/af/asr/vault/service/controller/SignatureCreatorRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-service/src/main/java/af/asr/vault/service/controller/SignatureRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-service/src/main/java/af/asr/vault/service/filter/IsisAuthenticatedProcessingFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-service/src/main/java/af/asr/vault/service/filter/UserContextFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-service/src/main/java/af/asr/vault/service/provider/InvalidKeyTimestampException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-service/src/main/java/af/asr/vault/service/provider/SystemRsaKeyProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-service/src/main/java/af/asr/vault/service/provider/TenantRsaKeyProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-service/src/main/java/af/asr/vault/service/repository/TenantAuthorizationDataRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-service/src/main/java/af/asr/vault/service/security/AmitAuthenticationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-service/src/main/java/af/asr/vault/service/security/AnubisAuthentication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-service/src/main/java/af/asr/vault/service/security/AnubisPrincipal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-service/src/main/java/af/asr/vault/service/security/ApplicationPermission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-service/src/main/java/af/asr/vault/service/security/GuestAuthenticator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-service/src/main/java/af/asr/vault/service/security/IsisAuthenticatedAuthenticationProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-service/src/main/java/af/asr/vault/service/security/SystemAuthenticator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-service/src/main/java/af/asr/vault/service/security/TenantAuthenticator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-service/src/main/java/af/asr/vault/service/security/TokenInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-service/src/main/java/af/asr/vault/service/security/UrlPermissionChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-service/src/main/java/af/asr/vault/service/token/SystemAccessTokenSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-service/src/main/java/af/asr/vault/service/token/TenantAccessTokenSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-service/src/main/java/af/asr/vault/service/token/TenantApplicationRsaKeyProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-service/src/main/java/af/asr/vault/service/token/TenantRefreshTokenSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-service/src/main/java/af/asr/vault/service/token/TokenType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-service/src/test/java/af/asr/vault/service/VaultServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmo-vault/vault-service/src/main/java/af/asr/vault/service/token/TokenDeserializationResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commit.sh" beforeDir="false" afterPath="$PROJECT_DIR$/commit.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
