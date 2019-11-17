@@ -1,4 +1,4 @@
-package af.asr.mmocommand;
+package af.asr.command;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

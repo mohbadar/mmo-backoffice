@@ -1,4 +1,4 @@
 
 
 git add .
-git commit -m "MMO Crypto Library - Config"
+git commit -m "MMO Command Library - Setup"
