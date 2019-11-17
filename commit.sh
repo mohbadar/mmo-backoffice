@@ -1,4 +1,4 @@
 
 
 git add .
-git commit -m "API Library Setup - Configuration"
+git commit -m "API Library Setup - Api Cookie Management "
