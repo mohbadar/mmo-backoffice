@@ -1,4 +1,4 @@
 
 
 git add .
-git commit -m "MMO Identity Service - Event Management Section"
+git commit -m "MMO Identity Service - Client Section"
