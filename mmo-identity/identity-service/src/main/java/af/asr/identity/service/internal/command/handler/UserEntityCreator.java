@@ -23,11 +23,11 @@ public class UserEntityCreator {
     private final HashGenerator hashGenerator;
     private final Tenants tenants;
 
-    @Autowired UserEntityCreator(
+    @Autowired
+    UserEntityCreator(
             final SaltGenerator saltGenerator,
             final HashGenerator hashGenerator,
-            final Tenants tenants)
-    {
+            final Tenants tenants) {
         this.saltGenerator = saltGenerator;
         this.hashGenerator = hashGenerator;
         this.tenants = tenants;
@@ -48,14 +48,13 @@ public class UserEntityCreator {
                 .orElseThrow(() -> ServiceException.internalError("The tenant is not initialized."));
     }
 
-    public  UserEntity build(
+    public UserEntity build(
             final String identifier,
             final String role,
             final String password,
             final boolean passwordMustChange,
             final byte[] fixedSalt,
-            final int passwordExpiresInDays)
-    {
+            final int passwordExpiresInDays) {
         final UserEntity userEntity = new UserEntity();
 
         userEntity.setIdentifier(identifier);
@@ -84,3 +83,5 @@ public class UserEntityCreator {
             return LocalDate.fromDaysSinceEpoch(now.getDaysSinceEpoch() + offset);
         }
     }
+
+}
