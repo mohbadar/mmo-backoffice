@@ -1,18 +1,14 @@
 package af.asr.identity.service.internal.command.handler;
 
 
+import af.asr.ServiceException;
 import af.asr.command.annotation.Aggregate;
 import af.asr.command.annotation.CommandHandler;
 import af.asr.command.annotation.CommandLogLevel;
 import af.asr.command.annotation.EventEmitter;
-import af.asr.identity.api.v1.events.ApplicationPermissionEvent;
-import af.asr.identity.api.v1.events.ApplicationPermissionUserEvent;
-import af.asr.identity.api.v1.events.ApplicationSignatureEvent;
-import af.asr.identity.api.v1.events.EventConstants;
-import af.asr.identity.service.internal.command.CreateApplicationPermissionCommand;
-import af.asr.identity.service.internal.command.DeleteApplicationCommand;
-import af.asr.identity.service.internal.command.DeleteApplicationPermissionCommand;
-import af.asr.identity.service.internal.command.SetApplicationSignatureCommand;
+import af.asr.identity.api.v1.events.*;
+import af.asr.identity.service.internal.command.*;
+import af.asr.identity.service.internal.mapper.ApplicationCallEndpointSetMapper;
 import af.asr.identity.service.internal.mapper.PermissionMapper;
 import af.asr.identity.service.internal.repository.*;
 import org.springframework.beans.factory.annotation.Autowired;
