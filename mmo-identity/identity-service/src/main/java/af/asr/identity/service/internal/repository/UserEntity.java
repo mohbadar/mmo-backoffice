@@ -74,4 +74,3 @@ public class UserEntity {
         this.passwordExpiresOn = passwordExpiresOn;
     }
 }
-© 2019 GitHub, Inc.
