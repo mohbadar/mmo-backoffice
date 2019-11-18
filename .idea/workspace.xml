@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35e9da4c-fbc3-4f56-b6f0-e8bdc47b761d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mmo-identity/identity-service/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-identity/identity-service/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-identity/identity-service/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmo-identity/identity-service/src/main/resources/manifest.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mmo-identity/identity-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mmo-identity/identity-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

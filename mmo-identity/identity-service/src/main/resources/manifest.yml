@@ -1,0 +1,6 @@
+applications:
+  - name: identity
+    memory: 512M
+    host: im
+    buildpack: java_buildpack
+    path: ../../libs
