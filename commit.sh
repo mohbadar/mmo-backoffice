@@ -1,4 +1,4 @@
 
 
 git add .
-git commit -m "Identity Service - Command and Events"
+git commit -m "Identity Service -Repository and Service"
