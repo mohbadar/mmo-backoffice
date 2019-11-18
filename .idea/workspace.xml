@@ -2,35 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35e9da4c-fbc3-4f56-b6f0-e8bdc47b761d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_client_2_2_0_RC2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_config_2_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-identity/identity-api/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-identity/identity-api/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-identity/identity-api/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-identity/identity-api/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-identity/identity-api/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-identity/identity-api/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-identity/identity-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-identity/identity-api/src/main/java/af/asr/identity/identityapi/IdentityApiApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-identity/identity-api/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-identity/identity-api/src/test/java/af/asr/identity/identityapi/IdentityApiApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-identity/identity-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-identity/identity-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-identity/identity-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-identity/identity-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-identity/identity-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-identity/identity-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-identity/identity-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-identity/identity-service/src/main/java/af/asr/identity/identityservice/IdentityServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-identity/identity-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-identity/identity-service/src/test/java/af/asr/identity/identityservice/IdentityServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-identity/mmo-identity.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmo-identity/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_1_0_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_analysis_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_commons_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_tree_7_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmo-identity/identity-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mmo-identity/identity-service/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

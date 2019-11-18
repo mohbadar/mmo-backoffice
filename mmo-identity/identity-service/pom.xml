@@ -19,14 +19,94 @@
 		<spring-cloud.version>Hoxton.RC2</spring-cloud.version>
 		<spring-cloud.config.version>2.1.4.RELEASE</spring-cloud.config.version>
 		<spring-cloud.eureka.version>1.4.7.RELEASE</spring-cloud.eureka.version>
+		<hibernate-validator.version>6.1.0.Final</hibernate-validator.version>
+		<jjwt.version>0.9.1</jjwt.version>
+		<apache.httpcomponents.version>4.5.10</apache.httpcomponents.version>
+		<hibernate.validator.version>6.1.0.Final</hibernate.validator.version>
+		<netty.version>4.1.43.Final</netty.version>
 	</properties>
 
 	<dependencies>
+
+
+		<dependency>
+			<groupId>af.asr.identity</groupId>
+			<artifactId>identity-api</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>af.asr</groupId>
+			<artifactId>mmo-lang</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>af.asr</groupId>
+			<artifactId>mmo-async</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>af.asr</groupId>
+			<artifactId>mmo-api</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>af.asr</groupId>
+			<artifactId>mmo-cassandra</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>af.asr.vault</groupId>
+			<artifactId>vault-api</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>af.asr.vault</groupId>
+			<artifactId>vault-service</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>af.asr</groupId>
+			<artifactId>mmo-command</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>af.asr</groupId>
+			<artifactId>mmo-crypto</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-<!--		<dependency>-->
+
+		<!-- netty-all -->
+		<dependency>
+			<groupId>io.netty</groupId>
+			<artifactId>netty-all</artifactId>
+			<version>${netty.version}</version>
+		</dependency>
+
+		<!--netty-transport-native-epoll -->
+		<dependency>
+			<groupId>io.netty</groupId>
+			<artifactId>netty-transport-native-epoll</artifactId>
+			<version>${netty.version}</version>
+		</dependency>
+
+
+		<!--		<dependency>-->
 <!--			<groupId>org.springframework.cloud</groupId>-->
 <!--			<artifactId>spring-cloud-config-server</artifactId>-->
 <!--		</dependency>-->
@@ -50,7 +130,27 @@
 			<artifactId>spring-boot-starter-jetty</artifactId>
 		</dependency>
 
-		
+		<!-- hibernate-validator -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-validator</artifactId>
+			<version>${hibernate-validator.version}</version>
+		</dependency>
+
+		<!-- JWT  -->
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt</artifactId>
+			<version>${jjwt.version}</version>
+		</dependency>
+
+		<!--		HttpComponents-->
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>${apache.httpcomponents.version}</version>
+		</dependency>
+
 
 
 
