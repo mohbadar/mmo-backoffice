@@ -18,6 +18,7 @@
         <module>mmo-crypto</module>
         <module>mmo-command</module>
         <module>mmo-vault</module>
+        <module>mmo-identity</module>
         <module>mmo-core</module>
     </modules>
 

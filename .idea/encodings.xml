@@ -8,6 +8,8 @@
     <file url="file://$PROJECT_DIR$/mmo-core/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mmo-crypto/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mmo-data-jpa/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mmo-identity/identity-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mmo-identity/identity-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mmo-lang/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mmo-postgres/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mmo-vault/vault-api/src/main/java" charset="UTF-8" />

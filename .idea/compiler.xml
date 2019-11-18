@@ -6,21 +6,26 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="mmo-lang" />
         <module name="mmo-command" />
-        <module name="mmo-core" />
-        <module name="mmo-cassandra" />
         <module name="vault-api" />
-        <module name="mmo-data-jpa" />
-        <module name="mmo-async" />
+        <module name="identity-api" />
+        <module name="mmo-lang" />
+        <module name="mmo-cassandra" />
         <module name="mmo-vault" />
-        <module name="mmo-crypto" />
-        <module name="mmo-api" />
-        <module name="vault-service" />
         <module name="mmo-postgres" />
+        <module name="vault-service" />
+        <module name="identity-service" />
+        <module name="mmo-data-jpa" />
+        <module name="mmo-api" />
+        <module name="mmo-core" />
+        <module name="mmo-async" />
+        <module name="mmo-identity" />
+        <module name="mmo-crypto" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="identity-api" target="1.8" />
+      <module name="identity-service" target="1.8" />
       <module name="mmo" target="1.5" />
       <module name="mmo-api" target="1.8" />
       <module name="mmo-async" target="1.8" />
@@ -29,6 +34,7 @@
       <module name="mmo-core" target="1.8" />
       <module name="mmo-crypto" target="1.8" />
       <module name="mmo-data-jpa" target="1.8" />
+      <module name="mmo-identity" target="1.5" />
       <module name="mmo-lang" target="1.8" />
       <module name="mmo-postgres" target="1.8" />
       <module name="mmo-vault" target="1.5" />
@@ -38,6 +44,8 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="identity-api" options="-parameters" />
+      <module name="identity-service" options="-parameters" />
       <module name="mmo-api" options="-parameters" />
       <module name="mmo-async" options="-parameters" />
       <module name="mmo-cassandra" options="-parameters" />
