@@ -1,4 +1,4 @@
-package af.asr.identity.service.rest;
+package af.asr.identity.service.internal.util;
 
 import com.datastax.driver.core.LocalDate;
 

@@ -1,4 +1,4 @@
-package af.asr.identity.service.rest;
+package af.asr.identity.service.internal.util;
 
 public interface IdentityConstants {
     String SU_ROLE = "pharaoh";

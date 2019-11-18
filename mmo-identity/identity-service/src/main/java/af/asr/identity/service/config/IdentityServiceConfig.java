@@ -7,6 +7,7 @@ import af.asr.command.config.EnableCommandProcessing;
 import af.asr.config.EnableServiceException;
 import af.asr.config.EnableTenantContext;
 import af.asr.crypto.config.EnableCrypto;
+import af.asr.identity.service.internal.util.IdentityConstants;
 import af.asr.vault.service.config.EnableAnubis;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
