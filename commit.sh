@@ -1,4 +1,4 @@
 
 
 git add .
-git commit -m "Identity Service - Commands & Handlers"
+git commit -m "Identity Service - Rest Resource API"
