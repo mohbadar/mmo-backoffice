@@ -1,4 +1,4 @@
-package af.asr.identity.service.config;
+package af.asr.identity.service.internal.command;
 
 
 import af.asr.identity.api.v1.domain.Role;
