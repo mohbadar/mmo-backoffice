@@ -1,5 +1,6 @@
 package af.asr.cassandra.util;
 
+import af.asr.DateConverter;
 import com.datastax.driver.core.DataType;
 import com.datastax.driver.core.ParseUtils;
 import com.datastax.driver.core.ProtocolVersion;

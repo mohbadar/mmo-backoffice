@@ -3,6 +3,7 @@ package af.asr.command.gateway;
 
 import af.asr.command.domain.CommandCallback;
 import af.asr.command.domain.CommandProcessingException;
+import af.asr.command.internal.CommandBus;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

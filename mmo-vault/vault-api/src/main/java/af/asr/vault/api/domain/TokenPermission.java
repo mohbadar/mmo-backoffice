@@ -54,3 +54,4 @@ public class TokenPermission {
                 ", allowedOperations=" + allowedOperations +
                 '}';
     }
+}

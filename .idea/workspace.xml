@@ -2,8 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35e9da4c-fbc3-4f56-b6f0-e8bdc47b761d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mmo-identity/identity-service/src/main/resources/manifest.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/identity.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmo-identity/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmo-identity/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmo-identity/.settings/org.eclipse.jdt.apt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmo-identity/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmo-identity/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_19_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_servlet_1_19_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_1_1_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_2_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_2_1_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_2_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_2_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_2_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_server_2_2_0_RC2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_server_2_2_0_RC2.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmo-async/src/main/java/af/asr/async/config/AsyncProcessingJavaConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/mmo-async/src/main/java/af/asr/async/config/AsyncProcessingJavaConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmo-cassandra/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mmo-cassandra/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmo-cassandra/src/main/java/af/asr/cassandra/util/LocalDateTimeCodec.java" beforeDir="false" afterPath="$PROJECT_DIR$/mmo-cassandra/src/main/java/af/asr/cassandra/util/LocalDateTimeCodec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmo-command/src/main/java/af/asr/command/gateway/CommandGateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/mmo-command/src/main/java/af/asr/command/gateway/CommandGateway.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmo-command/src/main/java/af/asr/command/internal/CommandBus.java" beforeDir="false" afterPath="$PROJECT_DIR$/mmo-command/src/main/java/af/asr/command/internal/CommandBus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmo-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mmo-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmo-identity/identity-service/src/main/java/af/asr/identity/service/rest/InitializeRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mmo-identity/identity-service/src/main/java/af/asr/identity/service/rest/InitializeRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmo-identity/identity-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mmo-identity/identity-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmo-lang/src/main/java/af/asr/security/RsaKeyPairFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/mmo-lang/src/main/java/af/asr/security/RsaKeyPairFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmo-vault/vault-api/src/main/java/af/asr/vault/api/domain/TokenPermission.java" beforeDir="false" afterPath="$PROJECT_DIR$/mmo-vault/vault-api/src/main/java/af/asr/vault/api/domain/TokenPermission.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmo-vault/vault-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mmo-vault/vault-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmo-vault/vault-service/src/main/java/af/asr/vault/service/service/PermittableService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mmo-vault/vault-service/src/main/java/af/asr/vault/service/service/PermittableService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,13 +75,26 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="Application.ServerApplication">
+  <component name="RunManager" selected="Application.IdentityServiceConfig">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="af.asr.mmocore.MmoCoreApplication" />
       <module name="mmo-core" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="af.asr.mmocore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IdentityServiceConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="af.asr.identity.service.config.IdentityServiceConfig" />
+      <module name="identity-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="af.asr.identity.service.config.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,9 +118,11 @@
     <list>
       <item itemvalue="Application.Application" />
       <item itemvalue="Application.ServerApplication" />
+      <item itemvalue="Application.IdentityServiceConfig" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IdentityServiceConfig" />
         <item itemvalue="Application.ServerApplication" />
         <item itemvalue="Application.Application" />
       </list>
@@ -120,30 +169,30 @@
       <screen x="67" y="27" width="1613" height="1023" />
     </state>
     <state x="656" y="254" width="424" height="567" key="FileChooserDialogImpl/67.27.1613.1023@67.27.1613.1023" timestamp="1574075487028" />
-    <state width="1567" height="269" key="GridCell.Tab.0.bottom" timestamp="1573996399539">
+    <state width="1567" height="269" key="GridCell.Tab.0.bottom" timestamp="1574143520100">
       <screen x="67" y="27" width="1613" height="1023" />
     </state>
-    <state width="1567" height="269" key="GridCell.Tab.0.bottom/67.27.1613.1023@67.27.1613.1023" timestamp="1573996399539" />
-    <state width="1567" height="269" key="GridCell.Tab.0.center" timestamp="1573996399539">
+    <state width="1567" height="269" key="GridCell.Tab.0.bottom/67.27.1613.1023@67.27.1613.1023" timestamp="1574143520100" />
+    <state width="1567" height="269" key="GridCell.Tab.0.center" timestamp="1574143520100">
       <screen x="67" y="27" width="1613" height="1023" />
     </state>
-    <state width="1567" height="269" key="GridCell.Tab.0.center/67.27.1613.1023@67.27.1613.1023" timestamp="1573996399539" />
-    <state width="1567" height="269" key="GridCell.Tab.0.left" timestamp="1573996399539">
+    <state width="1567" height="269" key="GridCell.Tab.0.center/67.27.1613.1023@67.27.1613.1023" timestamp="1574143520100" />
+    <state width="1567" height="269" key="GridCell.Tab.0.left" timestamp="1574143520100">
       <screen x="67" y="27" width="1613" height="1023" />
     </state>
-    <state width="1567" height="269" key="GridCell.Tab.0.left/67.27.1613.1023@67.27.1613.1023" timestamp="1573996399539" />
-    <state width="1567" height="269" key="GridCell.Tab.0.right" timestamp="1573996399539">
+    <state width="1567" height="269" key="GridCell.Tab.0.left/67.27.1613.1023@67.27.1613.1023" timestamp="1574143520100" />
+    <state width="1567" height="269" key="GridCell.Tab.0.right" timestamp="1574143520100">
       <screen x="67" y="27" width="1613" height="1023" />
     </state>
-    <state width="1567" height="269" key="GridCell.Tab.0.right/67.27.1613.1023@67.27.1613.1023" timestamp="1573996399539" />
+    <state width="1567" height="269" key="GridCell.Tab.0.right/67.27.1613.1023@67.27.1613.1023" timestamp="1574143520100" />
     <state x="459" y="236" width="819" height="602" key="NewModule_or_Project.wizard" timestamp="1574075489393">
       <screen x="67" y="27" width="1613" height="1023" />
     </state>
     <state x="459" y="236" width="819" height="602" key="NewModule_or_Project.wizard/67.27.1613.1023@67.27.1613.1023" timestamp="1574075489393" />
-    <state x="529" y="365" key="com.intellij.ide.util.TipDialog" timestamp="1574070010785">
+    <state x="529" y="365" key="com.intellij.ide.util.TipDialog" timestamp="1574139119478">
       <screen x="67" y="27" width="1613" height="1023" />
     </state>
-    <state x="529" y="365" key="com.intellij.ide.util.TipDialog/67.27.1613.1023@67.27.1613.1023" timestamp="1574070010785" />
+    <state x="529" y="365" key="com.intellij.ide.util.TipDialog/67.27.1613.1023@67.27.1613.1023" timestamp="1574139119478" />
     <state x="439" y="241" width="869" height="592" key="find.popup" timestamp="1574073466945">
       <screen x="67" y="27" width="1613" height="1023" />
     </state>

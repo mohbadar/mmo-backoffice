@@ -25,6 +25,7 @@ public final class RsaKeyPairFactory {
         KeyPairHolder keyPair = RsaKeyPairFactory.createKeyPair();
 
         String style = (args != null && args.length > 0) ?args[0] :"";
+        // String style= "UNIX";
         if ("SPRING".equalsIgnoreCase(style)) {
             System.out.println("system.publicKey.exponent=" + keyPair.getPublicKeyExp());
             System.out.println("system.publicKey.modulus=" + keyPair.getPublicKeyMod());

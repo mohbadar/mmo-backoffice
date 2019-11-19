@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RsaKeyPairFactory",
+            "request": "launch",
+            "mainClass": "af.asr.security.RsaKeyPairFactory",
+            "projectName": "mmo-lang"
+        }
+    ]
+}

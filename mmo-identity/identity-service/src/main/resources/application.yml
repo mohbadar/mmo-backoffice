@@ -55,3 +55,7 @@ system.publicKey:
 identity:
   passwordExpiresInDays: 93
   timeToChangePasswordAfterExpirationInDays: 4
+
+system:
+    publicKey:
+    timestamp: 2019-11-19T05_30_40

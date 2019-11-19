@@ -19,7 +19,7 @@
         <module>mmo-command</module>
         <module>mmo-vault</module>
         <module>mmo-identity</module>
-        <module>mmo-core</module>
+        <!-- <module>mmo-core</module> -->
     </modules>
 
 </project>
