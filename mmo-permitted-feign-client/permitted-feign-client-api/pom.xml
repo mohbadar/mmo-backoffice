@@ -23,9 +23,16 @@
 
 	<dependencies>
 
+
 		<dependency>
-			<groupId>af.asr.vault</groupId>
-			<artifactId>vault-api</artifactId>
+			<groupId>af.asr</groupId>
+			<artifactId>mmo-api</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>af.asr.identity</groupId>
+			<artifactId>identity-api</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 
@@ -44,12 +51,14 @@
 			<version>${hibernate-validator.version}</version>
 		</dependency>
 
-		<!--Google GSON-->
+		<!--`Google GSON-->
 		<dependency>
 			<groupId>com.google.code.gson</groupId>
 			<artifactId>gson</artifactId>
 			<version>${gson.version}</version>
 		</dependency>
+
+
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
