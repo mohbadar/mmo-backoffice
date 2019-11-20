@@ -88,6 +88,12 @@
 
 		<dependency>
 			<groupId>af.asr</groupId>
+			<artifactId>mmo-postgres</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>af.asr</groupId>
 			<artifactId>mmo-api</artifactId>
 			<version>${project.version}</version>
 		</dependency>

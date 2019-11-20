@@ -5,6 +5,7 @@ import af.asr.cassandra.core.CassandraSessionProvider;
 import af.asr.cassandra.util.CassandraConnectorConstants;
 import af.asr.crypto.HashGenerator;
 import af.asr.crypto.SaltGenerator;
+import af.asr.postgresql.util.PostgreSQLConstants;
 import af.asr.provisioner.service.config.ProvisionerConstants;
 import af.asr.provisioner.service.internal.util.DataSourceUtils;
 import com.datastax.driver.core.BoundStatement;
