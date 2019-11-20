@@ -16,6 +16,12 @@
 
 	<properties>
 		<java.version>1.8</java.version>
+		<spring-cloud.config.version>2.1.4.RELEASE</spring-cloud.config.version>
+		<spring-cloud.eureka.version>1.4.7.RELEASE</spring-cloud.eureka.version>
+		<hibernate-validator.version>6.1.0.Final</hibernate-validator.version>
+		<apache.httpcomponents.version>4.5.10</apache.httpcomponents.version>
+		<hibernate.validator.version>6.1.0.Final</hibernate.validator.version>
+		<netty.version>4.1.43.Final</netty.version>
 	</properties>
 
 	<dependencies>
