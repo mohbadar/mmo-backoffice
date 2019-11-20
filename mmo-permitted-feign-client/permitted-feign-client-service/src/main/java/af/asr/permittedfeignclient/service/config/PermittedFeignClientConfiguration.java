@@ -5,6 +5,7 @@ import af.asr.api.util.EmptyBodyInterceptor;
 import af.asr.api.util.TenantedTargetInterceptor;
 import af.asr.api.util.TokenedTargetInterceptor;
 import af.asr.identity.api.v1.client.IdentityManager;
+import af.asr.permittedfeignclient.service.LibraryConstants;
 import af.asr.vault.service.config.EnableAnubis;
 import feign.Client;
 import feign.Feign;
