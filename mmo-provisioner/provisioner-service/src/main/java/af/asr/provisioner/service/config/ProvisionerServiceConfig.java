@@ -1,11 +1,13 @@
 package af.asr.provisioner.service.config;
 
+import af.asr.api.util.ApiFactory;
 import af.asr.async.config.EnableAsync;
 import af.asr.cassandra.config.EnableCassandra;
 import af.asr.config.EnableApplicationName;
 import af.asr.config.EnableServiceException;
 import af.asr.crypto.config.EnableCrypto;
 import af.asr.vault.service.config.EnableAnubis;
+import af.asr.vault.service.token.SystemAccessTokenSerializer;
 import org.apache.activemq.jms.pool.PooledConnectionFactory;
 import org.apache.activemq.spring.ActiveMQConnectionFactory;
 
