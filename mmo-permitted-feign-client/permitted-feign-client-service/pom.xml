@@ -23,10 +23,71 @@
 		<apache.httpcomponents.version>4.5.10</apache.httpcomponents.version>
 		<hibernate.validator.version>6.1.0.Final</hibernate.validator.version>
 		<netty.version>4.1.43.Final</netty.version>
-		<spring-cloud.security>2.1.5.RELEASE</spring-cloud.security>
+		<spring-cloud.security.version>2.1.5.RELEASE</spring-cloud.security.version>
+		<expiringmap.version>0.5.9</expiringmap.version>
 	</properties>
 
 	<dependencies>
+
+
+
+		<dependency>
+			<groupId>af.asr</groupId>
+			<artifactId>mmo-lang</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>af.asr</groupId>
+			<artifactId>mmo-async</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>af.asr</groupId>
+			<artifactId>mmo-api</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>af.asr</groupId>
+			<artifactId>mmo-cassandra</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>af.asr.vault</groupId>
+			<artifactId>vault-api</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>af.asr.vault</groupId>
+			<artifactId>vault-service</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>af.asr</groupId>
+			<artifactId>mmo-command</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>af.asr</groupId>
+			<artifactId>mmo-crypto</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>af.asr.permitted-feign-client</groupId>
+			<artifactId>permitted-feign-client-api</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
@@ -45,12 +106,20 @@
 			<optional>true</optional>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/net.jodah/expiringmap -->
+		<dependency>
+			<groupId>net.jodah</groupId>
+			<artifactId>expiringmap</artifactId>
+			<version>${expiringmap.version}</version>
+		</dependency>
+
+
 
 		<!-- spring-cloud-starter-security -->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-security</artifactId>
-			<version>${spring-cloud.security}</version>
+			<version>${spring-cloud.security.version}</version>
 		</dependency>
 
 		<!-- spring-cloud-starter-config -->
