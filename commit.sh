@@ -1,4 +1,4 @@
 
 
 git add .
-git commit -m "Identity Service - Rest Resource API"
+git commit -m "permitted-feign-client Service - Setup"

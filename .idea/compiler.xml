@@ -14,10 +14,9 @@
         <module name="mmo-vault" />
         <module name="mmo-postgres" />
         <module name="vault-service" />
-        <module name="identity-service" />
         <module name="mmo-data-jpa" />
+        <module name="identity-service" />
         <module name="mmo-api" />
-        <module name="mmo-core" />
         <module name="mmo-async" />
         <module name="mmo-identity" />
         <module name="mmo-crypto" />
