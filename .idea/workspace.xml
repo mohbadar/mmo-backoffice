@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35e9da4c-fbc3-4f56-b6f0-e8bdc47b761d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mmo-provisioner/provisioner-service/src/main/java/af/asr/provisioner/service/internal/listener/IdentityListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmo-provisioner/provisioner-service/src/main/java/af/asr/provisioner/service/internal/repository/ApplicationEntity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +12,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin File" />
         <option value="Class" />
       </list>
     </option>
