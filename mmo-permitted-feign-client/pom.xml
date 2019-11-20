@@ -4,14 +4,14 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>af.asr</groupId>
-	<artifactId>mmo-identity</artifactId>
+	<artifactId>mmo-permitted-feign-client</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>mmo-permitted-feign-client</name>
 	<description>MMO permitted-feign-client Module</description>
 
 	    <modules>
-		<module>permitted-feign-client-api</module>
-		<module>permitted-feign-client-service</module>
+			<module>permitted-feign-client-api</module>
+			<module>permitted-feign-client-service</module>
 	    </modules>
 
 

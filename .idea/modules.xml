@@ -12,12 +12,17 @@
       <module fileurl="file://$PROJECT_DIR$/mmo-crypto/mmo-crypto.iml" filepath="$PROJECT_DIR$/mmo-crypto/mmo-crypto.iml" />
       <module fileurl="file://$PROJECT_DIR$/mmo-data-jpa/mmo-data-jpa.iml" filepath="$PROJECT_DIR$/mmo-data-jpa/mmo-data-jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/mmo-identity/mmo-identity.iml" filepath="$PROJECT_DIR$/mmo-identity/mmo-identity.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mmo-permitted-feign-client/mmo-identity (1).iml" filepath="$PROJECT_DIR$/mmo-permitted-feign-client/mmo-identity (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/mmo-provisioner/mmo-identity (1).iml" filepath="$PROJECT_DIR$/mmo-provisioner/mmo-identity (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/mmo-lang/mmo-lang.iml" filepath="$PROJECT_DIR$/mmo-lang/mmo-lang.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mmo-permitted-feign-client/mmo-mmo-permitted-feign-client.iml" filepath="$PROJECT_DIR$/mmo-permitted-feign-client/mmo-mmo-permitted-feign-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mmo-permitted-feign-client/mmo-permitted-feign-client.iml" filepath="$PROJECT_DIR$/mmo-permitted-feign-client/mmo-permitted-feign-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/mmo-postgres/mmo-postgres.iml" filepath="$PROJECT_DIR$/mmo-postgres/mmo-postgres.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mmo-provisioner/mmo-provisioner.iml" filepath="$PROJECT_DIR$/mmo-provisioner/mmo-provisioner.iml" />
       <module fileurl="file://$PROJECT_DIR$/mmo-vault/mmo-vault.iml" filepath="$PROJECT_DIR$/mmo-vault/mmo-vault.iml" />
       <module fileurl="file://$PROJECT_DIR$/mmo-permitted-feign-client/permitted-feign-client-api/permitted-feign-client-api.iml" filepath="$PROJECT_DIR$/mmo-permitted-feign-client/permitted-feign-client-api/permitted-feign-client-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/mmo-permitted-feign-client/permitted-feign-client-service/permitted-feign-client-service.iml" filepath="$PROJECT_DIR$/mmo-permitted-feign-client/permitted-feign-client-service/permitted-feign-client-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mmo-provisioner/provisioner-api/provisioner-api.iml" filepath="$PROJECT_DIR$/mmo-provisioner/provisioner-api/provisioner-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mmo-provisioner/provisioner-service/provisioner-service.iml" filepath="$PROJECT_DIR$/mmo-provisioner/provisioner-service/provisioner-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/mmo-vault/vault-api/vault-api.iml" filepath="$PROJECT_DIR$/mmo-vault/vault-api/vault-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/mmo-vault/vault-service/vault-service.iml" filepath="$PROJECT_DIR$/mmo-vault/vault-service/vault-service.iml" />
     </modules>

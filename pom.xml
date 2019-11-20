@@ -20,6 +20,7 @@
         <module>mmo-vault</module>
         <module>mmo-identity</module>
         <module>mmo-permitted-feign-client</module>
+        <module>mmo-provisioner</module>
         <!-- <module>mmo-core</module> -->
     </modules>
 

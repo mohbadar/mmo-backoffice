@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>af.asr</groupId>
-	<artifactId>mmo-identity</artifactId>
+	<artifactId>mmo-provisioner</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>mmo-provisioner</name>
 	<description>MMO Provisioner Module</description>
