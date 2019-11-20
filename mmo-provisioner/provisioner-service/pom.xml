@@ -96,6 +96,12 @@
 			<version>${project.version}</version>
 		</dependency>
 
+		<dependency>
+			<groupId>af.asr</groupId>
+			<artifactId>mmo-crypto</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
 
 		<!-- spring-cloud-starter-config -->
 		<dependency>
