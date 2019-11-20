@@ -1,11 +1,11 @@
 package af.asr.permittedfeignclient.service.service;
 
 import af.asr.identity.api.v1.domain.Permission;
+import af.asr.permittedfeignclient.api.domain.ApplicationPermission;
 import af.asr.permittedfeignclient.service.annotation.EndpointSet;
 import af.asr.vault.api.domain.AllowedOperation;
 import af.asr.vault.service.annotation.Permittable;
 import af.asr.vault.service.annotation.Permittables;
-import af.asr.vault.service.security.ApplicationPermission;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.RequestMapping;
