@@ -1,5 +1,7 @@
 package af.asr.permittedfeignclient.service.config;
 
+import af.asr.permittedfeignclient.service.controller.ApplicationPermissionRequirementsRestController;
+import af.asr.permittedfeignclient.service.service.ApplicationAccessTokenService;
 import org.springframework.context.annotation.ImportSelector;
 import org.springframework.core.type.AnnotationMetadata;
 

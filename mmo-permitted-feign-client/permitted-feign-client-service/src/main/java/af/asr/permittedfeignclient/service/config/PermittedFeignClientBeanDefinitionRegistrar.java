@@ -1,5 +1,6 @@
 package af.asr.permittedfeignclient.service.config;
 
+import af.asr.permittedfeignclient.service.service.ApplicationPermissionRequirementsService;
 import org.springframework.beans.factory.support.AbstractBeanDefinition;
 import org.springframework.beans.factory.support.BeanDefinitionBuilder;
 import org.springframework.beans.factory.support.BeanDefinitionRegistry;

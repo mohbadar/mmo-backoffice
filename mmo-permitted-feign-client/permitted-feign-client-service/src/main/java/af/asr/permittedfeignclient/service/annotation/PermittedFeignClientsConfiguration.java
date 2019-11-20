@@ -4,6 +4,8 @@ package af.asr.permittedfeignclient.service.annotation;
 import static af.asr.api.config.ApiConfiguration.LOGGER_NAME;
 import af.asr.api.util.AnnotatedErrorDecoder;
 import af.asr.api.util.TenantedTargetInterceptor;
+import af.asr.permittedfeignclient.service.security.ApplicationTokenedTargetInterceptor;
+import af.asr.permittedfeignclient.service.service.ApplicationAccessTokenService;
 import feign.Feign;
 import feign.Target;
 import feign.codec.Decoder;
