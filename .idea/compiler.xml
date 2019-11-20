@@ -6,20 +6,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="permitted-feign-client-api" />
         <module name="mmo-command" />
         <module name="vault-api" />
         <module name="identity-api" />
         <module name="mmo-lang" />
         <module name="mmo-cassandra" />
-        <module name="mmo-vault" />
+        <module name="mmo-crypto" />
+        <module name="permitted-feign-client-service" />
         <module name="mmo-postgres" />
+        <module name="mmo-vault" />
+        <module name="mmo-identity (1)" />
         <module name="vault-service" />
         <module name="mmo-data-jpa" />
         <module name="identity-service" />
         <module name="mmo-api" />
         <module name="mmo-async" />
         <module name="mmo-identity" />
-        <module name="mmo-crypto" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -34,9 +37,12 @@
       <module name="mmo-crypto" target="1.8" />
       <module name="mmo-data-jpa" target="1.8" />
       <module name="mmo-identity" target="1.5" />
+      <module name="mmo-identity (1)" target="1.5" />
       <module name="mmo-lang" target="1.8" />
       <module name="mmo-postgres" target="1.8" />
       <module name="mmo-vault" target="1.5" />
+      <module name="permitted-feign-client-api" target="1.8" />
+      <module name="permitted-feign-client-service" target="1.8" />
       <module name="vault-api" target="1.8" />
       <module name="vault-service" target="1.8" />
     </bytecodeTargetLevel>
@@ -54,6 +60,8 @@
       <module name="mmo-data-jpa" options="-parameters" />
       <module name="mmo-lang" options="-parameters" />
       <module name="mmo-postgres" options="-parameters" />
+      <module name="permitted-feign-client-api" options="-parameters" />
+      <module name="permitted-feign-client-service" options="-parameters" />
       <module name="vault-api" options="-parameters" />
       <module name="vault-service" options="-parameters" />
     </option>

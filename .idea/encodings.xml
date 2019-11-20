@@ -11,6 +11,8 @@
     <file url="file://$PROJECT_DIR$/mmo-identity/identity-api/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mmo-identity/identity-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mmo-lang/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mmo-permitted-feign-client/permitted-feign-client-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mmo-permitted-feign-client/permitted-feign-client-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mmo-postgres/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mmo-vault/vault-api/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mmo-vault/vault-service/src/main/java" charset="UTF-8" />
