@@ -6,14 +6,16 @@ The systems which are building around these principles are going be a multitenan
 
 Generally, we are intended to follow these guidelines:
 
-    • Keep it simple
-    • Make it for a reason, it is not art
-    • Make it to last
-    • Make it sustainable, Downtime is key to productivity
-    • Enable others. I’m expandable 
-    • Make it to work with other systems
-    • Make it  self-resilient 
-    • Make it reliable. 
+ - Keep it simple<br/>
+ - Make it for a reason, it is not art<br/>
+ - Make it to last<br/>
+ - Make it sustainable, Downtime is key to productivity<br/>
+ - Enable others. I’m expandable <br/>
+ - Make it to work with other systems<br/>
+ - Make it  self-resilient <br/>
+ - Make it reliable. <br/>
+
+  
       
 Our foundation goal is to form a robust but flexible data model which is ready-made for extensions and customization. An API provides access to all basic functions grouped in modules.
 
