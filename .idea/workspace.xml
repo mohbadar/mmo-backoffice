@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35e9da4c-fbc3-4f56-b6f0-e8bdc47b761d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mmo-provisioner/provisioner-api/src/main/java/af/asr/provisioner/api/v1/client/DuplicateIdentifierException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmo-provisioner/provisioner-api/src/main/java/af/asr/provisioner/api/v1/domain/Tenant.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
