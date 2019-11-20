@@ -89,3 +89,5 @@ public final class Tenant {
                 ", databaseConnectionInfo=" + databaseConnectionInfo +
                 '}';
     }
+
+}

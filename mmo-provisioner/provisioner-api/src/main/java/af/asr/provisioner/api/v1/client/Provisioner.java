@@ -5,7 +5,7 @@ import javax.validation.Valid;
 
 import af.asr.api.annotation.ThrowsException;
 import af.asr.api.util.CustomFeignClientsConfiguration;
-import feign.Client;
+import af.asr.provisioner.api.v1.domain.*;
 import org.springframework.cloud.netflix.feign.FeignClient;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
