@@ -19,9 +19,11 @@
 		<spring-cloud.config.version>2.1.4.RELEASE</spring-cloud.config.version>
 		<spring-cloud.eureka.version>1.4.7.RELEASE</spring-cloud.eureka.version>
 		<hibernate-validator.version>6.1.0.Final</hibernate-validator.version>
+		<jjwt.version>0.9.1</jjwt.version>
 		<apache.httpcomponents.version>4.5.10</apache.httpcomponents.version>
 		<hibernate.validator.version>6.1.0.Final</hibernate.validator.version>
 		<netty.version>4.1.43.Final</netty.version>
+		<spring-cloud.security>2.1.5.RELEASE</spring-cloud.security>
 	</properties>
 
 	<dependencies>
@@ -44,12 +46,18 @@
 		</dependency>
 
 
+		<!-- spring-cloud-starter-security -->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-security</artifactId>
+			<version>${spring-cloud.security}</version>
+		</dependency>
 
 		<!-- spring-cloud-starter-config -->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-config</artifactId>
-			<!--			<version>${spring-cloud.config.version}</version>-->
+			<version>${spring-cloud.config.version}</version>
 		</dependency>
 		<!-- spring-cloud-starter-eureka -->
 		<dependency>
@@ -71,7 +79,20 @@
 			<version>${hibernate-validator.version}</version>
 		</dependency>
 
-		
+		<!-- JWT  -->
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt</artifactId>
+			<version>${jjwt.version}</version>
+		</dependency>
+
+		<!--		HttpComponents-->
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>${apache.httpcomponents.version}</version>
+		</dependency>
+
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
