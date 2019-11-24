@@ -1,39 +1,21 @@
-## Introduction 
 
-This document provides a list of  design principles and best practices for building real-time, request/response and batch oriented  data management and data driven systems. In this document, we have tried to consider the most successful and tested practices in large code-bases.  All the principles are tested and they have contributed in building sustainable, reliable and scalable systems.  
-
-The systems which are building around these principles are going be a multitenant, service oriented, and event-driven architecture, and will be deployed in a SaaS (Software as a Service) model or on-premises.
-
-Generally, we are intended to follow these guidelines:
-
- - Keep it simple<br/>
- - Make it for a reason, it is not art<br/>
- - Make it to last<br/>
- - Make it sustainable, Downtime is key to productivity<br/>
- - Enable others. I’m expandable <br/>
- - Make it to work with other systems<br/>
- - Make it  self-resilient <br/>
- - Make it reliable. <br/>
-
-  
-      
 Our foundation goal is to form a robust but flexible data model which is ready-made for extensions and customization. An API provides access to all basic functions grouped in modules.
 
 ## Main Advantages 
 
-    • Flexibility in Using Technologies (Programming language independence) 
-    • Autonomous, Cross-functional Teams
-    • Easier to Build and Maintain Apps ( Save Resources)
-    • Easier system integration
-    • Improved Productivity and Speed
-    • Highly loosely coupled services, modules and systems
-    • Real-time analysis and reports
-    • and more
+- Flexibility in Using Technologies (Programming language independence) <br/>
+- Autonomous, Cross-functional Teams<br/>
+- Easier to Build and Maintain Apps ( Save Resources)<br/>
+- Easier system integration<br/>
+- Improved Productivity and Speed<br/>
+- Highly loosely coupled services, modules and systems<br/>
+- Real-time analysis and reports<br/>
+- and more<br/>
 
 ## Keywords
-    • Tenant:  is a separate and distinct set of users within a multi-tenant database. 
-    • Event: is an action or occurrence recognized by software.
-    • Message:  is a discrete unit of data and metadata intended by the source for consumption by some recipient or group of recipients.
+  - Tenant:  is a separate and distinct set of users within a multi-tenant database.  <br/>
+  - Event: is an action or occurrence recognized by software. <br/>
+  - Message:  is a discrete unit of data and metadata intended by the source for consumption by some recipient or group of recipients. <br/>
 
 ## Design Principles and Best Practices 
 
@@ -42,40 +24,40 @@ There are many advantages to implementing a multi-tenant application environment
 Savings created by multi-tenancy come from sharing the same resources with multiple tenants. Sharing resources provides a way for an application vendor to create and maintain resources once for all customers, which can result in significant savings.
 
 In some special cases of tenant data access can be  as follows:
-    • Super-tenant users (e.g. Central) — Super-tenants users (or simply super tenants) can access all of the data in the database, typically for maintenance purposes.
-    • Tenant groups — Groups allow more than one tenant to access the same data for an instance of a table.
+   -  Super-tenant users (e.g. Central) — Super-tenants users (or simply super tenants) can access all of the data in the database, typically for maintenance purposes.
+   -  Tenant groups — Groups allow more than one tenant to access the same data for an instance of a table.
 
 ## Message Broker  for all internal and external data exchange 
 A message broker (also known as an integration broker or interface engine) is an intermediary computer program module that translates a message from the formal messaging protocol of the sender to the formal messaging protocol of the receiver. We can achieve following benefits by using a message broker. 
 
-    • Route messages to one or more destinations
-    • Transform messages to an alternative representation
-    • Perform message aggregation, decomposing messages into multiple messages and sending them to their destination, then recomposing the responses into one message to return to the user
-    • Interact with an external repository to augment a message or store it
-    • Invoke web services to retrieve data
-    • Respond to events or errors
-    • Provide content and topic-based message routing using the publish–subscribe pattern
+  - Route messages to one or more destinations <br/>
+  - Transform messages to an alternative representation <br/>
+  - Perform message aggregation, decomposing messages into multiple messages and sending them to their destination, then recomposing the responses into one message to return to the user <br/>
+  - Interact with an external repository to augment a message or store it <br/>
+  - Invoke web services to retrieve data <br/>
+  - Respond to events or errors <br/>
+  - Provide content and topic-based message routing using the publish–subscribe pattern <br/>
 
 Message brokers are generally based on one of two fundamental architectures: hub-and-spoke and message bus. In the first, a central server acts as the mechanism that provides integration services, whereas with the latter, the message broker is a communication backbone or distributed service that acts on the bus. Additionally, a more scalable multi-hub approach can be used to integrate multiple brokers
 
 ## NoSQL database at Storage Level 
 We prefer NoSQL database for following reasons
 
-    • To store large volumes of data that might have little to no structure:  NoSQL databases do not limit the types of data that you can store together. NoSQL databases also enable you to add new data types as your needs change. With document-oriented databases, you can store data in one place without having to define the data type in advance.
-    • To speed development: When we are developing in rapid iterations or making frequent updates to the data structure, a relational database slows you down. However, because NoSQL data doesn’t need to be prepped ahead of time, you can make frequent updates to the data structure with minimal downtime.
-    • To boost horizontal scalability: The CAP (consistency, availability, and partition tolerance) theorem states that in any distributed system, only two of the three CAP properties can be used simultaneously. Adjusting these properties in favor of strong partition tolerance enables NoSQL users to boost horizontal scalability.
+- To store large volumes of data that might have little to no structure:  NoSQL databases do not limit the types of data that you can store together. NoSQL databases also enable you to add new data types as your needs change. With document-oriented databases, you can store data in one place without having to define the data type in advance. <br/>
+- To speed development: When we are developing in rapid iterations or making frequent updates to the data structure, a relational database slows you down. However, because NoSQL data doesn’t need to be prepped ahead of time, you can make frequent updates to the data structure with minimal downtime. <br/>
+- To boost horizontal scalability: The CAP (consistency, availability, and partition tolerance) theorem states that in any distributed system, only two of the three CAP properties can be used simultaneously. Adjusting these properties in favor of strong partition tolerance enables NoSQL users to boost horizontal scalability. <br/>
 
 Note: we use SQL databases in case we have to or we need ACID (Atomicity, Consistency, Isolation, Durability)  for transaction processing. 
 
 ## Event Driven Design (EDD) at heart of architectural design
 It  is a design pattern built around the production, detection, and reaction to events that take place in time. It is a design paradigm normalized for dynamic, asynchronous, process-oriented contexts. By using this pattern we can have following benefits:
 
-    • Highly loosely coupled services, modules and systems
-    • Autonomous components
-    • Easy Integration 
-    • Greater responsiveness because event-driven systems are, by design, normalized to unpredictable, nonlinear, and asynchronous environments. 
-    • Real-time and streaming of events
-    • Real-time analysis and reports
+   - Highly loosely coupled services, modules and systems <br/>
+   - Autonomous components <br/>
+   - Easy Integration  <br/>
+   - Greater responsiveness because event-driven systems are, by design, normalized to unpredictable, nonlinear, and asynchronous environments.  <br/>
+   - Real-time and streaming of events <br/>
+   - Real-time analysis and reports <br/>
 
 ## Domain Driven Design (DDD) 
 we will take a close look at the solutions we have built, decomposed the functionality, and rearranged them based on bounded contexts we have identified. Simply, we do not develop systems based on developers assumptions. 
