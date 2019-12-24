@@ -15,8 +15,6 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 /**
  * Checks that a list of identifiers is valid, in the same way that ValidIdentifier checks if a single identifier is
  * valid.
- *
- * @author Myrle Krantz
  */
 @SuppressWarnings("unused")
 @Target({ FIELD, METHOD, PARAMETER})
