@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<sysmon logger="Q2">
+    <!-- Environment: '@target@' -->
+    <attr name="sleepTime" type="java.lang.Long">3600000</attr>
+    <attr name="detailRequired" type="java.lang.Boolean">true</attr>
+</sysmon>

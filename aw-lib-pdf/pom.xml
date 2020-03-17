@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.2.2.RELEASE</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+	<groupId>af.gov.anar.lib</groupId>
+	<artifactId>aw-lib-pdf</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>aw-lib-pdf</name>
+	<description>PDF Utility Library of ePayFrame</description>
+
+	<properties>
+		<java.version>1.8</java.version>
+		<itextcore.version>7.1.0</itextcore.version>
+		<itexthtml2pdf.version>2.0.0</itexthtml2pdf.version>
+		<itext.version>5.5.13</itext.version>
+		<bouncycastle.version>1.60</bouncycastle.version>
+		<jackson.databind.version>2.10.1</jackson.databind.version>
+		<xmlworker.version>5.5.13.1</xmlworker.version>
+		<junit.version>4.13-rc-2</junit.version>
+		<common-io.version>2.6</common-io.version>
+	</properties>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>af.gov.anar.lib</groupId>
+			<artifactId>aw-lib-core</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
+		<!-- jackson-databind -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>${jackson.databind.version}</version>
+		</dependency>
+
+
+
+		<dependency>
+			<groupId>com.itextpdf</groupId>
+			<artifactId>itext7-core</artifactId>
+			<version>${itextcore.version}</version>
+			<type>pom</type>
+		</dependency>
+		<dependency>
+			<groupId>com.itextpdf</groupId>
+			<artifactId>html2pdf</artifactId>
+			<version>${itexthtml2pdf.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.itextpdf</groupId>
+			<artifactId>itextpdf</artifactId>
+			<version>${itext.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.itextpdf.tool</groupId>
+			<artifactId>xmlworker</artifactId>
+			<version>${itext.version}</version>
+		</dependency>
+
+
+		<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+		<dependency>
+			<groupId>org.bouncycastle</groupId>
+			<artifactId>bcprov-jdk15on</artifactId>
+			<version>${bouncycastle.version}</version>
+		</dependency>
+
+
+		<!-- https://mvnrepository.com/artifact/com.itextpdf.tool/xmlworker -->
+		<dependency>
+			<groupId>com.itextpdf.tool</groupId>
+			<artifactId>xmlworker</artifactId>
+			<version>${xmlworker.version}</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+			<!--			<exclusions>-->
+			<!--				<exclusion>-->
+			<!--					<groupId>org.junit.vintage</groupId>-->
+			<!--					<artifactId>junit-vintage-engine</artifactId>-->
+			<!--				</exclusion>-->
+			<!--			</exclusions>-->
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/junit/junit -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>${junit.version}</version>
+			<scope>test</scope>
+		</dependency>
+
+
+		<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>${common-io.version}</version>
+		</dependency>
+
+	</dependencies>
+</project>

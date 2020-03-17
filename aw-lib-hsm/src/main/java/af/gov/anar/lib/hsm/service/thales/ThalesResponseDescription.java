@@ -1,0 +1,101 @@
+package af.gov.anar.lib.hsm.service.thales;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public final class ThalesResponseDescription {
+
+	public static final Map<String, String> codemap = new HashMap<>();
+
+	static {
+		codemap.put("00", "No error.");
+		codemap.put("01", "Verification failure or warning of imported key parity error.");
+		codemap.put("02", "Key inappropriate length for algorithm.");
+		codemap.put("04", "Invalid key type code.");
+		codemap.put("05", "Invalid key length flag.");
+		codemap.put("10", "Source key parity error.");
+		codemap.put("11", "Destination key parity error or key all zeros.");
+		codemap.put("12", "Contents of user storage not available. Reset, power-down or overwrite.");
+		codemap.put("13", "Invalid LMK Identifier.");
+		codemap.put("14", "PIN encrypted under LMK pair 02-03 is invalid.");
+		codemap.put("15", "Invalid input data (invalid format, invalid characters, or not enough data provided).");
+		codemap.put("16", "Console or printer not ready or not connected.");
+		codemap.put("17", "HSM not authorized, or operation prohibited by security settings.");
+		codemap.put("18", "Document format definition not loaded.");
+		codemap.put("19", "Specified Diebold Table is invalid.");
+		codemap.put("20", "PIN block does not contain valid values.");
+		codemap.put("21", "Invalid index value, or index/block count would cause an overflow condition.");
+		codemap.put("22", "Invalid account number .");
+		codemap.put("23", "Invalid PIN block format code. (Use includes where the security setting to implement PCI HSM limitations on PIN Block format usage is applied, and a Host command attempts to convert a PIN Block to a disallowed format.).");
+		codemap.put("24", "PIN is fewer than 4 or more than 12 digits in length.");
+		codemap.put("25", "Decimalization Table error.");
+		codemap.put("26", "Invalid key scheme.");
+		codemap.put("27", "Incompatible key length.");
+		codemap.put("28", "Invalid key type.");
+		codemap.put("29", "Key function not permitted.");
+		codemap.put("30", "Invalid reference number.");
+		codemap.put("31", "Insufficient solicitation entries for batch.");
+		codemap.put("32", "LIC007 (AES) not installed.");
+		codemap.put("33", "LMK key change storage is corrupted.");
+		codemap.put("39", "Fraud detection .");
+		codemap.put("40", "Invalid checksum.");
+		codemap.put("41", "Internal hardware/software error: bad RAM, invalid error codes, etc..");
+		codemap.put("42", "DES failure.");
+		codemap.put("43", "RSA Key Generation Failure.");
+		codemap.put("47", "Algorithm not licensed.");
+		codemap.put("49", "Private key error, report to supervisor.");
+		codemap.put("51", "Invalid message header.");
+		codemap.put("65", "Transaction Key Scheme set to None.");
+		codemap.put("67", "Command not licensed.");
+		codemap.put("68", "Command has been disabled.");
+		codemap.put("69", "PIN block format has been disabled.");
+		codemap.put("74", "Invalid digest info syntax (no hash mode only).");
+		codemap.put("75", "Single length key masquerading as double or triple length key.");
+		codemap.put("76", "Public key length error.");
+		codemap.put("77", "Clear data block error.");
+		codemap.put("78", "Private key length error.");
+		codemap.put("79", "Hash algorithm object identifier error.");
+		codemap.put("80", "Data length error. The amount of MAC data (or other data) is greater than or less than the expected amount..");
+		codemap.put("81", "Invalid certificate header.");
+		codemap.put("82", "Invalid check value length.");
+		codemap.put("83", "Key block format error.");
+		codemap.put("84", "Key block check value error.");
+		codemap.put("85", "Invalid OAEP Mask Generation Function.");
+		codemap.put("86", "Invalid OAEP MGF Hash Function.");
+		codemap.put("87", "OAEP Parameter Error.");
+		codemap.put("90", "Data parity error in the request message received by the HSM.");
+		codemap.put("91", "Longitudinal Redundancy Check (LRC) character does not match the value computed over the input data (when the HSM has received a transparent async packet).");
+		codemap.put("92", "The Count value (for the Command/Data field) is not between limits, or is not correct (when the HSM has received a transparent async packet).");
+		codemap.put("A1", "Incompatible LMK schemes.");
+		codemap.put("A2", "Incompatible LMK identifiers.");
+		codemap.put("A3", "Incompatible keyblock LMK identifiers.");
+		codemap.put("A4", "Key block authentication failure.");
+		codemap.put("A5", "Incompatible key length.");
+		codemap.put("A6", "Invalid key usage.");
+		codemap.put("A7", "Invalid algorithm.");
+		codemap.put("A8", "Invalid mode of use.");
+		codemap.put("A9", "Invalid key version number.");
+		codemap.put("AA", "Invalid export field.");
+		codemap.put("AB", "Invalid number of optional blocks.");
+		codemap.put("AC", "Optional header block error.");
+		codemap.put("AD", "Key status optional block error.");
+		codemap.put("AE", "Invalid start date/time.");
+		codemap.put("AF", "Invalid end date/time.");
+		codemap.put("B0", "Invalid encryption mode.");
+		codemap.put("B1", "Invalid authentication mode.");
+		codemap.put("B2", "Miscellaneous keyblock error.");
+		codemap.put("B3", "Invalid number of optional blocks.");
+		codemap.put("B4", "Optional block data error.");
+		codemap.put("B5", "Incompatible components.");
+		codemap.put("B6", "Incompatible key status optional blocks.");
+		codemap.put("B7", "Invalid change field.");
+		codemap.put("B8", "Invalid old value.");
+		codemap.put("B9", "Invalid new value.");
+		codemap.put("BA", "No key status block in the keyblock.");
+		codemap.put("BB", "Invalid wrapping key.");
+		codemap.put("BC", "Repeated optional block.");
+		codemap.put("BD", "Incompatible key types.");
+		codemap.put("BE", "Invalid keyblock header ID ");
+	}
+
+}

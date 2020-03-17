@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/anar-datacollection-kit/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/anar-lib-activemq/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/anar-lib-calender/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/anar-lib-checksum/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/anar-lib-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/anar-lib-cors/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/anar-lib-crypto-jce/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/anar-lib-crypto/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/anar-lib-csv/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/anar-lib-date/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/anar-lib-emptycheck/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/anar-lib-excel/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/anar-lib-hash/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/anar-lib-hmac/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/anar-lib-json/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/anar-lib-kafka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/anar-lib-logger/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/anar-lib-mail/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/anar-lib-math/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/anar-lib-pdf/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/anar-lib-str/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/anar-lib-uuid/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/anar-lib-workflow/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/anar-lib-xml/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/anar-lib-zip/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/anar-servicetemplate/src/main/java" charset="UTF-8" />
+  </component>
+</project>

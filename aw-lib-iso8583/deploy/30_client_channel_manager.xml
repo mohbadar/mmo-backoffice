@@ -1,0 +1,8 @@
+<qbean name="jpos-client-manager" logger="Q2" realm="jpos-client-application" class="af.asr.iso8583.jpos.channel.ChannelManager">
+
+    <property name="mux"     value="jpos-client-mux" />
+    <property name="channel" value="jpos-client-adaptor"/>
+    <property name="timeout" value="40000" />
+    <property name="sessions" value="10" />
+    <property name="shutdown" value="false" />
+</qbean>
