@@ -20,7 +20,7 @@
 		<spring-cloud.eureka.version>1.4.7.RELEASE</spring-cloud.eureka.version>
 		<hibernate-validator.version>6.1.0.Final</hibernate-validator.version>
 		<jjwt.version>0.9.1</jjwt.version>
-		<apache.httpcomponents.version>4.5.10</apache.httpcomponents.version>
+		<apache.httpcomponents.version>4.5.13</apache.httpcomponents.version>
 		<hibernate.validator.version>6.1.0.Final</hibernate.validator.version>
 		<netty.version>4.1.43.Final</netty.version>
 		<spring-cloud.security.version>2.1.5.RELEASE</spring-cloud.security.version>
