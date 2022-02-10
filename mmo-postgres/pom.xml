@@ -19,7 +19,7 @@
 		<find.bugs.version>3.0.2</find.bugs.version>
 		<bonecp.version>0.8.0.RELEASE</bonecp.version>
 		<eclipse.jpa.persistance.version>2.7.5</eclipse.jpa.persistance.version>
-		<hibernate.core.version>5.4.8.Final</hibernate.core.version>
+		<hibernate.core.version>5.4.24.Final</hibernate.core.version>
 		<hibernate.entitymanager.version>5.4.9.Final</hibernate.entitymanager.version>
 		<flyway.version>4.0.1</flyway.version>
 	</properties>
